@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<script>
+function myFunction() {
+ document.getElementById("demo").innerHTML = "嗯方嗯方最爱噗！";
+}
+function myFunction1() {
+ document.getElementById("demo").innerHTML = "嗯噗嗯噗最爱方！";
+}
+</script>
+</head>
+
+<body>
+<h2>Crafting my very first JavaScript</h2>
+
+<p id="demo" title="嗯方跟嗯噗">嗯噗嗯噗最爱方！</p>
+<a href="http://www.bilibili.com/">点我看B站啦</a><br><br>
+<button type="button" onclick="myFunction()"> 嗯噗按我！</button>
+<button type="button" onclick="myFunction1()">嗯方按我！</button>
+
+
+<h2>Try JS output part</h2>
+
+<h3>innerHTML</h3>
+<p id="demo2"></p>
+<script>
+document.getElementById("demo2").innerHTML= 1+1
+</script>
+
+<h3>document.write</h3>
+<script>
+document.write(2+2);
+</script>
+
+<h3>window.alert #commented</h3>
+<!-- <script>window.alert(5+6);
+</script> -->
+
+<h3>console.log</h3>
+<script>
+console.log(1+1);
+</script>
+
+<h2>Syntax</h2>
+<p id="syntax"></p>
+
+<script>
+var x,y,z;
+x=1;
+y=2;
+z=x+y;
+document.getElementById("syntax").innerHTML = z + " is the result";
+</script>
+
+</body>
+</html>
